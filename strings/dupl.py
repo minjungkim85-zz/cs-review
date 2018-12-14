@@ -2,7 +2,7 @@ import numpy as np
 
 # ASCII
 a = 97
-data = np.random.randint(26,size=(5),dtype='uint32') + a
+data = np.random.randint(26,size=(20),dtype='uint32') + a
 data = np.char.mod('%c', data)
 data.sort()
 
@@ -16,10 +16,9 @@ for letter in data:
 
 # Make reverse dictionary
 rev = {}
-
 for lets,cts in counts.items():
-    keys = rev.setdefault(cts,[])
-    keys.append(lets)
+    knownlets = rev.setdefault(cts,[])
+    knownlets.append(lets)
 
 
 print(' '.join(data))
