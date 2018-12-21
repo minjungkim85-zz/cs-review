@@ -1,6 +1,8 @@
 # Programming puzzles
 - Used to prepare for a programming job interview.
-- Pure Python whenever possible.
+- Comments are sparse/non-existent, but added as needed.
+
+- Used pure Python whenever possible (i.e., no modules imported).
 	- Exception: NumPy to create test data sets of random numbers.
 
 - Average difficulty is similar to difficulty of the actual test, in that:
