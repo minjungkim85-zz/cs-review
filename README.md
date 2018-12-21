@@ -1,11 +1,11 @@
 # Programming puzzles
-- I used these to prepare for a programming job interview.
-- I tried to use pure Python whenever possible.
-	- Exception: To create test data sets, I used NumPy.
+- Used to prepare for a programming job interview.
+- Pure Python whenever possible.
+	- Exception: NumPy to create test data sets of random numbers.
 
-- I would consider the average difficulty of these puzzles to be similar to the difficulty of the programming test, in that:
+- Average difficulty is similar to difficulty of the actual test, in that:
 	- The solution is usually simple in hindsight.
-	- But under the time pressure of a programming test, finding the right solution can be immensely difficult.
+	- But finding the right solution can be immensely difficult under time pressure.
 
 
 ## Sample tests/questions
